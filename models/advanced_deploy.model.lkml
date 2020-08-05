@@ -14,7 +14,7 @@ persist_with: advanced_deploy_qa_default_datagroup
 
 
 explore: order_items {
-  description: "QA Tooltip"
+  description: "QA Tooltip - Test Today 8/5"
   label: "Order Items - QA"
   join: users {
     type: left_outer
