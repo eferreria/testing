@@ -14,7 +14,7 @@ persist_with: advanced_deploy_qa_default_datagroup
 
 
 explore: order_items {
-  label: "Order Items - Dev Branch"
+  view_label: "Order Items - Changed Again - Immediate "
   join: users {
     type: left_outer
     sql_on: ${order_items.user_id} = ${users.id} ;;
