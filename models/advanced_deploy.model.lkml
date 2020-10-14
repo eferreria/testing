@@ -5,6 +5,9 @@ include: "/views/*.view"
 
 label: "Advanced Deploy QA (EAF)"
 
+
+
+
 datagroup: advanced_deploy_qa_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "1 hour"
