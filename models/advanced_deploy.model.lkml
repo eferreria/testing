@@ -2,6 +2,7 @@ connection: "snowlooker"
 
 # include all the views
 include: "/views/*.view"
+#update today
 
 label: "Advanced Deploy QA (EAF)"
 
