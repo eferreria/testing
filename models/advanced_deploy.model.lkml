@@ -2,6 +2,8 @@ connection: "snowlooker"
 
 # include all the views
 include: "/views/*.view"
+#update today
+
 
 label: "Advanced Deploy QA (EAF)"
 
@@ -17,6 +19,7 @@ persist_with: advanced_deploy_qa_default_datagroup
 
 
 explore: order_items {
+
   description: "QA Tooltip - Test Today 8/5"
   label: "Order Items - QA 8/5 Test"
   join: users {
