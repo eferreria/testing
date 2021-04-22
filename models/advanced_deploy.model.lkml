@@ -4,10 +4,9 @@ connection: "snowlooker"
 include: "/views/*.view"
 #update today
 
-
 label: "Advanced Deploy QA (EAF)"
-
-
+# testing for release cut to QA
+# test Number 2 for Deployment
 
 
 datagroup: advanced_deploy_qa_default_datagroup {
