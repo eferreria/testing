@@ -2,8 +2,13 @@ connection: "snowlooker"
 
 # include all the views
 include: "/views/*.view"
+#update today
 
-label: "Advanced Deploy Test (EAF) - Dev Branch"
+
+label: "Advanced Deploy QA (EAF)"
+
+
+
 
 datagroup: advanced_deploy_qa_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
@@ -14,7 +19,9 @@ persist_with: advanced_deploy_qa_default_datagroup
 
 
 explore: order_items {
-  view_label: "Order Items - Demo 8/5 - Webhook Enabled  "
+
+  description: "QA Tooltip - Test Today 8/5"
+  label: "Order Items - QA 8/5 Test"
   join: users {
     type: left_outer
     sql_on: ${order_items.user_id} = ${users.id} ;;
